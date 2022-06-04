@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+h1 {
+    background-color: rgb(180, 180, 0);
+}
+
+p {
+    color: navy;
+}
+
+#maindiv {
+    text-align: center;
+    background-color: rgb(152, 152, 152);
+    border: 5px solid black;
+    border-radius: 10px;
+    width: 25%;
+    margin: 10% ;
+}
+
+body {
+    background-color: darkslategray;
+    background-image: url('./resorces/org_bee98eedf311e5f9_1572933774000.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+    background-size: 100%;
+}
+
+nav {
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background-color: rgb(90, 76, 0);
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 20px;
+}
